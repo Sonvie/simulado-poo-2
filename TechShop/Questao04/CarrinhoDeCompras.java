@@ -1,8 +1,8 @@
-package TechShop.Questão04;
+package TechShop.Questao04;
 
-import TechShop.Questão02.Produto;
-import TechShop.Questão02.ProdutoFisico;
-import TechShop.Questão05.EstoqueInsuficienteException;
+import TechShop.Questao02.Produto;
+import TechShop.Questao02.ProdutoFisico;
+import TechShop.Questao05.EstoqueInsuficienteException;
 
 import java.util.ArrayList;
 import java.util.List;

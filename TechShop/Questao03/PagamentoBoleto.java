@@ -1,4 +1,4 @@
-package TechShop.Questão03;
+package TechShop.Questao03;
 
 public class PagamentoBoleto implements Pagamento{
     @Override 

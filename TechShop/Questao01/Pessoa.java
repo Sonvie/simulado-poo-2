@@ -1,4 +1,4 @@
-package TechShop.Questão01;
+package TechShop.Questao01;
 
 public class Pessoa{
     private String nome;

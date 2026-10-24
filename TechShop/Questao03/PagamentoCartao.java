@@ -1,6 +1,6 @@
-package TechShop.Questão03;
+package TechShop.Questao03;
 
-import TechShop.Questão05.PagamentoRecusadoException;
+import TechShop.Questao05.PagamentoRecusadoException;
 
 public class PagamentoCartao implements Pagamento{
     private int parcelas;

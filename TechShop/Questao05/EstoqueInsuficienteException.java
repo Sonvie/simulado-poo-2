@@ -1,4 +1,4 @@
-package TechShop.Questão05;
+package TechShop.Questao05;
 
 public class EstoqueInsuficienteException extends Exception{
     public EstoqueInsuficienteException(String nomeProduto, int quantidadeProduto){

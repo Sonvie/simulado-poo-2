@@ -1,10 +1,10 @@
-package TechShop.Questão06;
+package TechShop.Questao06;
 
-import TechShop.Questão01.*;
-import TechShop.Questão02.*;
-import TechShop.Questão03.*;
-import TechShop.Questão04.*;
-import TechShop.Questão05.*;
+import TechShop.Questao01.*;
+import TechShop.Questao02.*;
+import TechShop.Questao03.*;
+import TechShop.Questao04.*;
+import TechShop.Questao05.*;
 
 public class Pedido {
     Cliente cliente;

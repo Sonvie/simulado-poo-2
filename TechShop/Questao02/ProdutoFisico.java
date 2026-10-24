@@ -1,6 +1,6 @@
-package TechShop.Questão02;
+package TechShop.Questao02;
 
-import TechShop.Questão03.Entregavel;
+import TechShop.Questao03.Entregavel;
 
 public class ProdutoFisico extends Produto implements Entregavel{
     private double pesoKg;

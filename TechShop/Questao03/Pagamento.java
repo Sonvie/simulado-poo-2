@@ -1,4 +1,4 @@
-package TechShop.Questão03;
+package TechShop.Questao03;
 
 public interface Pagamento {
     double calcularValorFinal(double valor);

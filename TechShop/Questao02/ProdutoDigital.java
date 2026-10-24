@@ -1,4 +1,4 @@
-package TechShop.Questão02;
+package TechShop.Questao02;
 
 public class ProdutoDigital extends Produto{
     private int tamanhoMB;
