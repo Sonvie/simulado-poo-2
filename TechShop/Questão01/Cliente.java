@@ -10,6 +10,11 @@ public class Cliente extends Pessoa{
     }
 
     public void adicionarPontos(int pontos){
-        pontosFidelidade = pontos;
+        pontosFidelidade += pontos;
+    }
+
+    //estou na dúvida se esse endereço é o CEP do cliente, mas é o que bate.
+    public String getEndereco(){
+        return endereco;
     }
 }

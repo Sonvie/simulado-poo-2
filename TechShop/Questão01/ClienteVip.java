@@ -11,4 +11,8 @@ public class ClienteVip extends Cliente{
     public String toString(){
         return super.toString() + " | VIP (10%)";
     }
+
+    public double getPercentualDesconto(){
+        return percentualDesconto;
+    }
 }

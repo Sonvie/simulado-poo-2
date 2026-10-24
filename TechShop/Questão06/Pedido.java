@@ -1,6 +1,10 @@
 package TechShop.Questão06;
 
-import TechShop.*;
+import TechShop.Questão01.*;
+import TechShop.Questão02.*;
+import TechShop.Questão03.*;
+import TechShop.Questão04.*;
+import TechShop.Questão05.*;
 
 public class Pedido {
     Cliente cliente;
@@ -44,9 +48,6 @@ class Main{
         pedido1.Finalizar(pagamentoPix);
 
         pedido1.Finalizar(pagamentoCartao);
-
-
-
 
     }
 }
