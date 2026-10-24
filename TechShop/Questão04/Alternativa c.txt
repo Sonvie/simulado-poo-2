@@ -1,0 +1,7 @@
+Como explicado no item anterior, o tipo de referencia desse objeto é Produto,
+contudo o tipo do objeto é ProdutoFisico. Desse modo, o java consegue observar
+somente os métodos e atributos que o tipo de referencia possui. Para 
+utilizar o métodos e atributos do tipo do objeto real na memória, basta
+usar um casting: ((ProdutoFisico)p1).calcularFrete("60000-000");.
+
+Dessa maneira, o java interpreta p1 pelo seu tipo real.

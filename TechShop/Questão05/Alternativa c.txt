@@ -1,0 +1,13 @@
+Ele obriga no primeiro caso porque a classe está herdando diretamente de 
+Exceptions, o que obriga a ser verificado.
+No segundo caso isso não ocorre pois a classe herda de RuntimeException
+que não precisa ser verificada, ou seja, sem throws obrigatório no método e 
+sem try-catch obrigatório (do contrário da verificada).
+
+Depende se o erro pode ser tratado de maneira imediata dentro de um try-catch.
+Nesse caso do pagamento, uma vez que o erro ocorre não há muito o que fazer
+além de cancelar a transação.
+
+As exceções não verificadas são mais utilizadas quando o erro é um bug não
+previsivel e situações sem um tratamento imediato. Já as verificavéis são 
+para exceções previsiveis, no qual um tratamento é possível de maneira imediata.

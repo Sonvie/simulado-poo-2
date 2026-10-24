@@ -1,0 +1,12 @@
+1. Isso ocorre pois Produto é uma classe abstrata, esse tipo
+de classe não pode ser instânciada, mas sim usada como modelo para outras
+classes. Nesse caso, isso é vantajoso porque não precisamos criar os
+mesmos métodos e atributos repetidamente durante o código, basta herdar
+a classe produto nas classes que iremos realmente utilizar.
+
+2. A herança faz com que a subclasse adote os métodos e atributos da 
+superclasse automaticamente, como uma cópia do código da superclasse.
+Veja que o método "exibirResumo()" só é chamado por meio das subclasses,
+e que nelas o método "calcularPrecoFinal()" já está implementado. 
+Dessa forma, o que o compilador observa é o metodo que foi implementado
+dentro da subclasse, nunca na classe abstrata (super).

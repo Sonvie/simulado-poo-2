@@ -1,0 +1,8 @@
+Ele verifica dentro do método, ele método joga a exceção para a try catch,
+como tudo que estiver abaixo do método é ignorado e a exceção é
+tratada no catch, dentro dele é impresso:
+"B: Estoque insuficiente para teclado. Disponível: 3"
+Fora é impresso no finally:
+C 
+E fora do try-catch é impresso:
+D 

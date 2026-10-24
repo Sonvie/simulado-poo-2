@@ -1,0 +1,10 @@
+A primeria linha compila pois o compilador vai interpretar c como um Cliente
+"generico" que pode ser construido com qualquer uma das subclasses. Assim,
+ClienteVip sendo uma subclasse ele vai criar o espaço na mémoria, porém os
+atributos e métodos que podem ser acessados são somente os que estão
+declarados na classe Cliente. Uma maneira de acessar os métodos e atributos
+seria utilizar o casting em c "(ClienteVip)c".
+
+A segunda linha gera erro, pois Cliente não é subclasse de ClienteVip
+assim o que expliquei anteriomente não se aplica. Nem todo Cliente é um 
+ClienteVip.

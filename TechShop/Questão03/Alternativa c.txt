@@ -1,0 +1,10 @@
+1. Uma interface é preferenciavél pois funciona como um contrato
+que dita quais funções uma classe deve ter. Nesse caso, fazer isso permite
+que a subclasse ProdutoFisico realize esse contrato com Entregavel. Caso
+Entregavel fosse uma classe abstrata, isso não seria possível, já que uma
+classe só pode herdar uma superclasse, mas pode implementar multiplas interfaces. 
+
+2. Interfaces tem seus atributos por padrão como "public static final", nas
+classes abstratas é possível definir os atributos livremente. Como dito
+anteriomente, uma classe só consegue herdar uma superclasse, mas é possível
+implementar várias interfaces a classes.

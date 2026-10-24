@@ -1,0 +1,15 @@
+p1: Pela regra, a saída é calculada como precoBase + 10% de imposto, 
+como precoBase = 100.0, temos como saída 110.00.
+
+p2: Pela regra, a saída é calculada como precoBase − 5% de desconto, 
+como precoBase = 50.0, temos como saída 48.50.
+
+p3: Pela regra, a saída é calculada como precoBase × meses;
+se meses ≥ 6, aplica 10% de desconto sobre o total. Como precoBase = 20.0
+e meses = 6, temos como saída 108.0.
+
+Esses objetos são do tipo Produto, porém foram inicializados com as subclasses
+de Produto, assim tudo que pertence a subclasse foi inicializado da memória.
+Contudo, o nível de acesso é restrito ao que existe em Produto, logo quando
+o método é chamado, ele verifica se ele está disponível e chama com
+base no que a objeto aponta na memória, o que nesse caso é o método da subclasse.
